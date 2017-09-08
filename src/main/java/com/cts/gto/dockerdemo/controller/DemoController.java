@@ -11,7 +11,7 @@ public class DemoController extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
-		restConfiguration().component("jetty").host("localhost").port(8075).bindingMode(RestBindingMode.off);
+		restConfiguration().component("jetty").host("localhost").port(80).bindingMode(RestBindingMode.off);
 		rest("/dockerdemo")
 		.get("/getText").to("direct:getText");
 	}
