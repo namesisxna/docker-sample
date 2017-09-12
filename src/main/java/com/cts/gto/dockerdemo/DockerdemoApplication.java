@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DockerdemoApplication {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 	System.out.println("-----this mis my springboot application------");
+=======
+		System.out.println("-----this mis my springboot application------");
+>>>>>>> origin/master
 		SpringApplication.run(DockerdemoApplication.class, args);
 	}
 }
