@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cts.gto.dockerdemo.DockerdemoApplicationTests" time="0.47" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="com.cts.gto.dockerdemo.DockerdemoApplicationTests" time="0.051" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\480316\Downloads\dockerdemo\dockerdemo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\480316\Downloads\dockerdemo\dockerdemo"/>
+    <property name="user.dir" value="C:\Users\480316\Documents\GitHub\docker-sample"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -26,9 +25,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\480316\plugin_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3849260490640544022.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\480316\Documents\apache-maven-3.1.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/client;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\TortoiseSVN\bin;C:\Users\480316\Documents\apache-maven-3.1.1\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Users\480316\Documents\apache-maven-3.1.1\bin;C:\Program Files\cURL\bin;C:\Program Files\cURL\bin;C:\Python27\;C:\Python27\Scripts;C:\Users\480316\Documents\gradle-3.5\bin;%CATALINA_HOME%\bin;C:\Program Files\CloudFoundry;D:\cygwin\bin;D:\MongoDB 2.6 Standard\bin;C:\Users\480316\Downloads\tcc-0.9.25-win32-bin\tcc;C:\php-7.0.10-nts-Win32-VC14-x86;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\480316\Downloads\vert.x-2.1.5\vert.x-2.1.5\bin;C:\Program Files\nodejs\;C:\Users\480316\Downloads\spring-boot-cli-1.4.3.RELEASE-bin\spring-1.4.3.RELEASE\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;c:\Program Files\TortoiseGit\bin;C:\Program Files\ggobi;C:\Users\480316\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\Users\480316\Downloads\eclipse-jee-neon-3-win32\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\TortoiseSVN\bin;C:\Users\480316\Documents\apache-maven-3.1.1\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Users\480316\Documents\apache-maven-3.1.1\bin;C:\Program Files\cURL\bin;C:\Program Files\cURL\bin;C:\Python27\;C:\Python27\Scripts;C:\Users\480316\Documents\gradle-3.5\bin;%CATALINA_HOME%\bin;C:\Program Files\CloudFoundry;D:\cygwin\bin;D:\MongoDB 2.6 Standard\bin;C:\Users\480316\Downloads\tcc-0.9.25-win32-bin\tcc;C:\php-7.0.10-nts-Win32-VC14-x86;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\480316\Downloads\vert.x-2.1.5\vert.x-2.1.5\bin;C:\Program Files\nodejs\;C:\Users\480316\Downloads\spring-boot-cli-1.4.3.RELEASE-bin\spring-1.4.3.RELEASE\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;c:\Program Files\TortoiseGit\bin;C:\Program Files\ggobi;C:\Users\480316\AppData\Roaming\npm;C:\Program Files\Heroku\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -39,11 +38,12 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="480316"/>
-    <property name="java.class.path" value="/C:/Users/480316/Downloads/eclipse-jee-neon-3-win32/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\Users\480316\Documents\apache-maven-3.1.1\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\Users\480316\Documents\apache-maven-3.1.1\conf\settings.xml clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,14 +51,16 @@
     <property name="java.version" value="1.8.0_121"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\480316\Downloads\dockerdemo\dockerdemo\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\480316\Documents\apache-maven-3.1.1\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="contextLoads" classname="com.cts.gto.dockerdemo.DockerdemoApplicationTests" time="0.47"/>
+  <testcase name="contextLoads" classname="com.cts.gto.dockerdemo.DockerdemoApplicationTests" time="0.051"/>
 </testsuite>
